@@ -1,9 +1,47 @@
 body{
-    background-color: #121212;
+    background-color: #000000;
+    text-align: center;
     color: #ffffff;
     font-family: 'segoe UI', sans-serif;
     display: flex;
     justify-content:center;
     padding: 20px;
+}
 
+.container {
+    width: 400px;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #464646;
+    box-shadow: o 10px 30px rgba(0,0,0,0.5);
+}
+h1{
+    color: #0f8;
+    text-align: center;
+}
+
+h3{
+    color: #00d4ff;
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+}
+.card{
+    background: #252525;
+    padding: 15px;
+    border-radius: 5px;
+    border-left: 5px solid #0f8;
+}
+
+button{
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+    background-color: #0f8;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+button:hover {
+    background-color: #00cc6e;
 }
