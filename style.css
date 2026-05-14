@@ -1,5 +1,5 @@
 body{
-    background-color: #000000;
+    background-color: #121212;
     text-align: center;
     color: #ffffff;
     font-family: 'segoe UI', sans-serif;
@@ -17,12 +17,12 @@ body{
     box-shadow: o 10px 30px rgba(0,0,0,0.5);
 }
 h1{
-    color: #0f8;
+    color: rgb(39, 45, 151);
     text-align: center;
 }
 
 h3{
-    color: #00d4ff;
+    color: #fbfbfb;
     border-bottom: 1px solid #333;
     padding-bottom: 5px;
 }
@@ -37,11 +37,29 @@ button{
     width: 100%;
     padding: 15px;
     margin-top: 15px;
-    background-color: #0f8;
+    background-color: rgb(39, 45, 151);
     border: none;
     border-radius: 5px;
     font-weight: bold;
 }
 button:hover {
-    background-color: #00cc6e;
+    background-color: #3143e2;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    padding: 5px o;
+    color: #ccc;
+}
+input, select{
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: #252525;
+    color: white;
+    box-sizing: border-box;
 }
