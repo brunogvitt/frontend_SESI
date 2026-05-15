@@ -1,5 +1,5 @@
 body{
-    background-color: #121212;
+    background-color: #3a9bdc;
     text-align: center;
     color: #ffffff;
     font-family: 'segoe UI', sans-serif;
@@ -63,3 +63,9 @@ input, select{
     color: white;
     box-sizing: border-box;
 }
+hr{
+    border: 0;
+    border-top: lpx solid #333;
+    margin: 20px 0;
+}
+
